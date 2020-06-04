@@ -1,4 +1,4 @@
-# Cifrando archivos con AES
+# Cifrado de archivos con AES
 
 Este es un sencillo programa en python para cifrar archivos con AES, utiliza el paquete [pycrypto](https://pypi.org/project/pycrypto/) para el cifrado.
 
