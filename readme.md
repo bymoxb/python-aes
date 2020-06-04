@@ -11,7 +11,7 @@ Caracteristicas del cifrado:
 
 ![Menu](src/1.png "Menu")
 
-![Cifrando de archivo](src/2.png "Cifrando de archivo")
+![Cifrado de archivo](src/2.png "Cifrando de archivo")
 
 ![Descifrado de archivo](src/3.png "Descifrado de archivo")
 
@@ -31,4 +31,4 @@ Usar [virtualenv](https://github.com/pypa/virtualenv) antes de instalar los paqu
 
 Instalar la versión de [pycrypto](https://pypi.org/project/pycrypto/) especificada en el archivo `requirements.txt`.
 
-Correr es programa en cualquier distribución de Linux, ya que [pycrypto](https://pypi.org/project/pycrypto/) existen problemas en la instalación en Windows.
+Ejecutar el programa en cualquier distribución Linux, ya que existen problemas en la instalación de [pycrypto](https://pypi.org/project/pycrypto/) en Windows.
