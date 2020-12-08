@@ -28,7 +28,3 @@ python main.py
 ## Recomendaciones
 
 Usar [virtualenv](https://github.com/pypa/virtualenv) antes de instalar los paquetes.
-
-Instalar la versión de [pycrypto](https://pypi.org/project/pycrypto/) especificada en el archivo `requirements.txt`.
-
-Ejecutar el programa en cualquier distribución Linux, ya que existen problemas en la instalación de [pycrypto](https://pypi.org/project/pycrypto/) en Windows.
