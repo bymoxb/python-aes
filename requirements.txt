@@ -1,1 +1,2 @@
-pycryptodome==3.9.7
+pycryptodome==3.9.9
+pycryptodomex==3.9.9

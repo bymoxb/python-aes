@@ -8,11 +8,11 @@ def clear(): return os.system('clear')
 
 def obtener_archivo():
     while True:
-            ruta = input('Ruta del archivo: ')
-            if not os.path.isfile(ruta):
-                print('El archivo no existe!')
-            else:
-                break
+        ruta = input('Ruta del archivo: ')
+        if not os.path.isfile(ruta):
+            print('El archivo no existe!')
+        else:
+            break
 
     return ruta
 
@@ -40,7 +40,7 @@ while True:
             else:
                 break
 
-        nombre_nuevo_archivo = input('Nombre nuevo archivo: ')
+        nombre_nuevo_archivo = input('Nombre nuevo archivo (sin extensión): ')
 
         cifrado_aes = Cifrado(bytes_vector_inicializacion, llave)
 
@@ -50,7 +50,7 @@ while True:
         sleep(5)
 
     elif opcion == 2:
-        
+
         ruta = obtener_archivo()
 
         llave = input('Llave: ')
