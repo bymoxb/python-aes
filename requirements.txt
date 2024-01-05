@@ -1,2 +1,2 @@
 pycryptodome==3.9.9
-pycryptodomex==3.9.9
+pycryptodomex==3.19.1
